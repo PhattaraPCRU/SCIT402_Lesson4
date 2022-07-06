@@ -5,10 +5,11 @@
 package phattara.scit402_lesson4;
 import java.util.Scanner;
 import java.util.Arrays;
+import ArrayClass.MaxMinAvg;
 
 /**
  *
- * @author koonp
+ * @author 641102064111
  */
 public class Work {
     /*Public Obj Below Here*/
@@ -70,6 +71,23 @@ public class Work {
         }else{
             p("\nNot Found \""+search+"\"");
         }
-        
+    }
+    public static void samp46(){
+        int num[]={15,22,33,10,7,27,16};
+        for(int i=0;i<num.length;i++){
+            p(num[i]+" ");
+        }
+        Arrays.fill(num,0);
+        p("\nAfter Call \"Arrays.fill(num, 0)\"");
+        for(int i=0;i<num.length;i++){
+            p(num[i]+" ");
+        }
+    }
+    public static void samp47(){
+        int num1[]={15,22,33,10,7,27,16};
+        int num2[]={15,22,33,10,7,27,16};
+        p("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
+        Arrays.sort(num1);
+        p("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
     }
 }

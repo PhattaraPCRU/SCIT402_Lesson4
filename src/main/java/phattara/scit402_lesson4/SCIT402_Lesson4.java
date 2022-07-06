@@ -6,8 +6,8 @@
 package phattara.scit402_lesson4;
 
 /**
- *
- * @author koonp
+ * 4.8-4.10 Using Separate Main Class.
+ * @author 641102064111
  */
 public class SCIT402_Lesson4 {
 
