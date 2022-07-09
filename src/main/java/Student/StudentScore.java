@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Student;
 import java.util.Scanner;
 import ArrayClass.MaxMinAvg;
+
 /**
  * sample 4.8
- * @author 641102064111
+ * @author koonp@641102064111
+ * Create on 6:10:23 PM Jul 9, 2022
+ * This file is part of "Student" Package.
  */
 public class StudentScore {
     public static void main(String[] args){

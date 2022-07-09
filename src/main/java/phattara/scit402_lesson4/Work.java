@@ -5,7 +5,6 @@
 package phattara.scit402_lesson4;
 import java.util.Scanner;
 import java.util.Arrays;
-import ArrayClass.MaxMinAvg;
 
 /**
  *
@@ -18,6 +17,11 @@ public class Work {
         for(PrintableToString pts: args)
             System.out.print(pts);
         //System.out.println();
+    }
+    public static <PrintableToString> void pln(PrintableToString... args) {
+        for(PrintableToString pts: args)
+            System.out.print(pts);
+        System.out.println();
     }
     /*Work Below Here*/
     public static void samp41(){
@@ -45,7 +49,7 @@ public class Work {
         int num[] = {15,22,33,10,7,27,16};
         Arrays.sort(num);
         for(int i=0;i<num.length;i++){
-            p(num[i]+"");
+            p(num[i]+" ");
         }
     }
     public static void samp45(){
@@ -53,7 +57,7 @@ public class Work {
         Arrays.sort(num);
         int idx = Arrays.binarySearch(num, 22);
         for(int i=0;i<num.length;i++){
-            p(num[i]+"");
+            p(num[i]+" ");
         }
         p("\nFound \"22\" at index = "+idx+"\n");
     }
@@ -86,8 +90,8 @@ public class Work {
     public static void samp47(){
         int num1[]={15,22,33,10,7,27,16};
         int num2[]={15,22,33,10,7,27,16};
-        p("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
+        pln("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
         Arrays.sort(num1);
-        p("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
+        pln("Array num1 equals to Array num2 is "+Arrays.equals(num1, num2));
     }
 }

@@ -12,6 +12,6 @@ package phattara.scit402_lesson4;
 public class SCIT402_Lesson4 {
 
     public static void main(String[] args) {
-        Work.samp45edit();
+        Work.samp47();
     }
 }
